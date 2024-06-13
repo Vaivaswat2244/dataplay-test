@@ -1,0 +1,1047 @@
+TypeError: fetch failed
+    at Object.fetch (node:internal/deps/undici/undici:11372:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at runNextTicks (node:internal/process/task_queues:64:3)
+    at process.processImmediate (node:internal/timers:447:9)
+    at async a (/home/esddcliy/dataplay12/.next/server/pages/index.js:1:1423)
+    at async Promise.all (index 0)
+    at async g (/home/esddcliy/dataplay12/.next/server/pages/index.js:1:3027) {
+  cause: ConnectTimeoutError: Connect Timeout Error
+      at onConnectTimeout (/home/esddcliy/nodevenv/dataplay12/18/lib/node_modules/next/dist/compiled/undici/index.js:1:92227)
+      at /home/esddcliy/nodevenv/dataplay12/18/lib/node_modules/next/dist/compiled/undici/index.js:1:91719
+      at Immediate._onImmediate (/home/esddcliy/nodevenv/dataplay12/18/lib/node_modules/next/dist/compiled/undici/index.js:1:92109)
+      at process.processImmediate (node:internal/timers:476:21) {
+    code: 'UND_ERR_CONNECT_TIMEOUT'
+  }
+}
+TypeError: fetch failed
+    at Object.fetch (node:internal/deps/undici/undici:11372:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async a (/home/esddcliy/dataplay12/.next/server/pages/index.js:1:1423)
+    at async c (/home/esddcliy/dataplay12/.next/server/pages/workshop.js:1:1904) {
+  cause: ConnectTimeoutError: Connect Timeout Error
+      at onConnectTimeout (/home/esddcliy/nodevenv/dataplay12/18/lib/node_modules/next/dist/compiled/undici/index.js:1:92227)
+      at /home/esddcliy/nodevenv/dataplay12/18/lib/node_modules/next/dist/compiled/undici/index.js:1:91719
+      at Immediate._onImmediate (/home/esddcliy/nodevenv/dataplay12/18/lib/node_modules/next/dist/compiled/undici/index.js:1:92109)
+      at process.processImmediate (node:internal/timers:476:21) {
+    code: 'UND_ERR_CONNECT_TIMEOUT'
+  }
+}
+TypeError: fetch failed
+    at Object.fetch (node:internal/deps/undici/undici:11372:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async a (/home/esddcliy/dataplay12/.next/server/pages/index.js:1:1423)
+    at async Promise.all (index 0)
+    at async g (/home/esddcliy/dataplay12/.next/server/pages/index.js:1:3027) {
+  cause: ConnectTimeoutError: Connect Timeout Error
+      at onConnectTimeout (/home/esddcliy/nodevenv/dataplay12/18/lib/node_modules/next/dist/compiled/undici/index.js:1:92227)
+      at /home/esddcliy/nodevenv/dataplay12/18/lib/node_modules/next/dist/compiled/undici/index.js:1:91719
+      at Immediate._onImmediate (/home/esddcliy/nodevenv/dataplay12/18/lib/node_modules/next/dist/compiled/undici/index.js:1:92109)
+      at process.processImmediate (node:internal/timers:476:21) {
+    code: 'UND_ERR_CONNECT_TIMEOUT'
+  }
+}
+TypeError: fetch failed
+    at Object.fetch (node:internal/deps/undici/undici:11372:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async a (/home/esddcliy/dataplay12/.next/server/pages/index.js:1:1423)
+    at async Promise.all (index 0)
+    at async g (/home/esddcliy/dataplay12/.next/server/pages/index.js:1:3027) {
+  cause: ConnectTimeoutError: Connect Timeout Error
+      at onConnectTimeout (/home/esddcliy/nodevenv/dataplay12/18/lib/node_modules/next/dist/compiled/undici/index.js:1:92227)
+      at /home/esddcliy/nodevenv/dataplay12/18/lib/node_modules/next/dist/compiled/undici/index.js:1:91719
+      at Immediate._onImmediate (/home/esddcliy/nodevenv/dataplay12/18/lib/node_modules/next/dist/compiled/undici/index.js:1:92109)
+      at process.processImmediate (node:internal/timers:476:21) {
+    code: 'UND_ERR_CONNECT_TIMEOUT'
+  }
+}
+node:internal/modules/cjs/loader:1147
+  throw err;
+  ^
+
+Error: Cannot find module 'next'
+Require stack:
+- /home/esddcliy/devdataplay/server.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (/home/esddcliy/devdataplay/server.js:3:14)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/esddcliy/devdataplay/server.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+
+Node.js v20.10.0
+node:internal/modules/cjs/loader:1147
+  throw err;
+  ^
+
+Error: Cannot find module 'next'
+Require stack:
+- /home/esddcliy/devdataplay/server.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (/home/esddcliy/devdataplay/server.js:3:14)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/esddcliy/devdataplay/server.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+
+Node.js v20.10.0
+node:internal/modules/cjs/loader:1147
+  throw err;
+  ^
+
+Error: Cannot find module 'next'
+Require stack:
+- /home/esddcliy/devdataplay/server.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (/home/esddcliy/devdataplay/server.js:3:14)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/esddcliy/devdataplay/server.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+
+Node.js v20.10.0
+node:internal/modules/cjs/loader:1147
+  throw err;
+  ^
+
+Error: Cannot find module 'next'
+Require stack:
+- /home/esddcliy/devdataplay/server.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (/home/esddcliy/devdataplay/server.js:3:14)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/esddcliy/devdataplay/server.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+
+Node.js v20.10.0
+node:internal/modules/cjs/loader:1147
+  throw err;
+  ^
+
+Error: Cannot find module 'next'
+Require stack:
+- /home/esddcliy/devdataplay/server.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (/home/esddcliy/devdataplay/server.js:3:14)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/esddcliy/devdataplay/server.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+
+Node.js v20.10.0
+thread 'thread '<unnamed>' panicked at 'The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }', /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs:170:10
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+thread '<unnamed>' panicked at 'The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }', /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs:170:10
+thread '<unnamed>' panicked at 'The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }', /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs:170:10
+thread '<unnamed>' panicked at 'The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }', /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs:170:10
+<unnamed>' panicked at 'The global thread pool has not been initialized.: ThreadPoolBuildError { kind: IOError(Os { code: 11, kind: WouldBlock, message: "Resource temporarily unavailable" }) }', /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs:170:10
+thread '<unnamed>' panicked at 'The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }', /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs:170:10
+thread '<unnamed>' panicked at 'The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }', /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs:170:10
+thread '<unnamed>' panicked at 'The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }', /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs:170:10
+thread '<unnamed>' panicked at 'The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }', /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs:170:10
+ X ./pages/_app.js
+Error: failed to process The global thread pool has not been initialized.: ThreadPoolBuildError { kind: IOError(Os { code: 11, kind: WouldBlock, message: "Resource temporarily unavailable" }) }
+thread '<unnamed>' panicked at 'The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }', /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs:170:10
+thread '<unnamed>' panicked at 'The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }', /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs:170:10
+thread '<unnamed>' panicked at 'The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }', /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs:170:10
+thread '<unnamed>' panicked at 'The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }', /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs:170:10
+thread '<unnamed>' panicked at 'The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }', /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs:170:10
+thread '<unnamed>' panicked at 'The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }', /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs:170:10
+thread '<unnamed>' panicked at 'The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }', /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs:170:10
+thread '<unnamed>' panicked at 'The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }', /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs:170:10
+thread '<unnamed>' panicked at 'The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }', /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs:170:10
+thread '<unnamed>' panicked at 'The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }', /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs:170:10
+thread '<unnamed>' panicked at 'The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }', /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs:170:10
+thread '<unnamed>' panicked at 'The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }', /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs:170:10
+thread '<unnamed>' panicked at 'The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }', /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs:170:10
+thread '<unnamed>' panicked at 'The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }', /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs:170:10
+ X ./pages/_app.js
+Error: failed to process The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }
+ X Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/fallback-build-manifest.json'
+    at readFileSync (node:fs:453:20)
+    at loadManifest (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/load-manifest.js:30:54)
+    at loadManifestWithRetries (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/load-components.js:34:51)
+    at async loadDefaultErrorComponentsImpl (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/load-default-error-components.js:30:24)
+    at async DevServer.getFallbackErrorComponents (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/dev/next-dev-server.js:565:20)
+    at async DevServer.renderErrorToResponseImpl (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/base-server.js:1866:40)
+    at async DevServer.pipeImpl (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/base-server.js:820:25)
+    at async DevServer.handleCatchallRenderRequest (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/next-server.js:572:17)
+    at async DevServer.handleRequestImpl (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/base-server.js:722:17) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/fallback-build-manifest.json'
+}
+Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/fallback-build-manifest.json'
+    at readFileSync (node:fs:453:20)
+    at loadManifest (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/load-manifest.js:30:54)
+    at loadManifestWithRetries (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/load-components.js:34:51)
+    at async loadDefaultErrorComponentsImpl (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/load-default-error-components.js:30:24)
+    at async DevServer.getFallbackErrorComponents (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/dev/next-dev-server.js:565:20)
+    at async DevServer.renderErrorToResponseImpl (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/base-server.js:1866:40)
+    at async DevServer.pipeImpl (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/base-server.js:820:25)
+    at async DevServer.handleCatchallRenderRequest (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/next-server.js:572:17)
+    at async DevServer.handleRequestImpl (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/base-server.js:722:17) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/fallback-build-manifest.json'
+}
+Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/fallback-build-manifest.json'
+    at readFileSync (node:fs:453:20)
+    at loadManifest (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/load-manifest.js:30:54)
+    at loadManifestWithRetries (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/load-components.js:34:51)
+    at async loadDefaultErrorComponentsImpl (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/load-default-error-components.js:30:24)
+    at async DevServer.getFallbackErrorComponents (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/dev/next-dev-server.js:565:20)
+    at async DevServer.renderErrorToResponseImpl (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/base-server.js:1866:40)
+    at async pipe.req.req (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/base-server.js:1723:30)
+    at async DevServer.pipeImpl (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/base-server.js:820:25) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/fallback-build-manifest.json'
+}
+/home/esddcliy/nodevenv/devdataplay/20/bin/activate: fork: retry: Resource temporarily unavailable
+/home/esddcliy/nodevenv/devdataplay/20/bin/activate: fork: retry: Resource temporarily unavailable
+/home/esddcliy/nodevenv/devdataplay/20/bin/activate: fork: retry: Resource temporarily unavailable
+/home/esddcliy/nodevenv/devdataplay/20/bin/activate: fork: retry: Resource temporarily unavailable
+/home/esddcliy/nodevenv/devdataplay/20/bin/activate: fork: Resource temporarily unavailable
+/home/esddcliy/nodevenv/devdataplay/20/bin/node: line 12: /opt/alt/alt-nodejs/root/usr/bin/node: No such file or directory
+thread 'thread '<unnamed><unnamed>' panicked at '' panicked at 'The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }The global thread pool has not been initialized.: ThreadPoolBuildError { kind: IOError(Os { code: 11, kind: WouldBlock, message: "Resource temporarily unavailable" }) }', ', /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs/usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs::170170::1010
+
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+thread '<unnamed>' panicked at 'The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }', /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs:170:10
+thread 'thread '<unnamed><unnamed>' panicked at '' panicked at 'The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }', ', /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs/usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs::170170::1010
+
+thread '<unnamed>' panicked at 'The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }', /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs:170:10
+thread '<unnamed>' panicked at 'The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }', /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs:170:10
+thread '<unnamed>' panicked at 'The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }', /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs:170:10
+thread '<unnamed>' panicked at 'The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }', /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs:170:10
+ X ./pages/_app.js
+Error: failed to process The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }
+thread '<unnamed>' panicked at 'The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }thread '', <unnamed>/usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs' panicked at ':The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }170', :/usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs10:
+170:10
+thread '<unnamed>' panicked at 'The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }', /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs:170:10
+thread '<unnamed>' panicked at 'The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }', /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs:170:10
+thread '<unnamed>' panicked at 'The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }', /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs:170:10
+thread '<unnamed>' panicked at 'The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }', /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs:170:10
+thread '<unnamed>' panicked at 'The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }', /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs:170:10
+thread '<unnamed>' panicked at 'The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }', /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs:170:10
+thread '<unnamed>' panicked at 'The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }', /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs:170:10
+thread '<unnamed>' panicked at 'The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }', /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs:170:10
+thread '<unnamed>' panicked at 'The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }', /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs:170:10
+thread '<unnamed>' panicked at 'The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }', /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs:170:10
+thread '<unnamed>' panicked at 'The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }', /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs:170:10
+thread '<unnamed>' panicked at 'The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }', /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs:170:10
+ X ./pages/_app.js
+Error: failed to process The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }
+ X Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/fallback-build-manifest.json'
+    at readFileSync (node:fs:453:20)
+    at loadManifest (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/load-manifest.js:30:54)
+    at loadManifestWithRetries (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/load-components.js:34:51)
+    at async loadDefaultErrorComponentsImpl (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/load-default-error-components.js:30:24)
+    at async DevServer.getFallbackErrorComponents (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/dev/next-dev-server.js:565:20)
+    at async DevServer.renderErrorToResponseImpl (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/base-server.js:1866:40)
+    at async DevServer.pipeImpl (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/base-server.js:820:25)
+    at async DevServer.handleCatchallRenderRequest (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/next-server.js:572:17)
+    at async DevServer.handleRequestImpl (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/base-server.js:722:17) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/fallback-build-manifest.json'
+}
+Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/fallback-build-manifest.json'
+    at readFileSync (node:fs:453:20)
+    at loadManifest (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/load-manifest.js:30:54)
+    at loadManifestWithRetries (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/load-components.js:34:51)
+    at async loadDefaultErrorComponentsImpl (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/load-default-error-components.js:30:24)
+    at async DevServer.getFallbackErrorComponents (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/dev/next-dev-server.js:565:20)
+    at async DevServer.renderErrorToResponseImpl (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/base-server.js:1866:40)
+    at async DevServer.pipeImpl (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/base-server.js:820:25)
+    at async DevServer.handleCatchallRenderRequest (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/next-server.js:572:17)
+    at async DevServer.handleRequestImpl (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/base-server.js:722:17) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/fallback-build-manifest.json'
+}
+Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/fallback-build-manifest.json'
+    at readFileSync (node:fs:453:20)
+    at loadManifest (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/load-manifest.js:30:54)
+    at loadManifestWithRetries (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/load-components.js:34:51)
+    at async loadDefaultErrorComponentsImpl (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/load-default-error-components.js:30:24)
+    at async DevServer.getFallbackErrorComponents (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/dev/next-dev-server.js:565:20)
+    at async DevServer.renderErrorToResponseImpl (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/base-server.js:1866:40)
+    at async pipe.req.req (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/base-server.js:1723:30)
+    at async DevServer.pipeImpl (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/base-server.js:820:25) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/fallback-build-manifest.json'
+}
+Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/fallback-build-manifest.json'
+    at readFileSync (node:fs:453:20)
+    at loadManifest (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/load-manifest.js:30:54)
+    at loadManifestWithRetries (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/load-components.js:34:51)
+    at async loadDefaultErrorComponentsImpl (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/load-default-error-components.js:30:24)
+    at async DevServer.getFallbackErrorComponents (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/dev/next-dev-server.js:565:20)
+    at async DevServer.renderErrorToResponseImpl (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/base-server.js:1866:40)
+    at async pipe.req.req (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/base-server.js:1723:30)
+    at async DevServer.pipeImpl (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/base-server.js:820:25) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/fallback-build-manifest.json'
+}
+Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/fallback-build-manifest.json'
+    at readFileSync (node:fs:453:20)
+    at loadManifest (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/load-manifest.js:30:54)
+    at loadManifestWithRetries (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/load-components.js:34:51)
+    at async loadDefaultErrorComponentsImpl (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/load-default-error-components.js:30:24)
+    at async DevServer.getFallbackErrorComponents (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/dev/next-dev-server.js:565:20)
+    at async DevServer.renderErrorToResponseImpl (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/base-server.js:1866:40)
+    at async pipe.req.req (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/base-server.js:1723:30)
+    at async DevServer.pipeImpl (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/base-server.js:820:25) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/fallback-build-manifest.json'
+}
+Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/fallback-build-manifest.json'
+    at readFileSync (node:fs:453:20)
+    at loadManifest (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/load-manifest.js:30:54)
+    at loadManifestWithRetries (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/load-components.js:34:51)
+    at async loadDefaultErrorComponentsImpl (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/load-default-error-components.js:30:24)
+    at async DevServer.getFallbackErrorComponents (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/dev/next-dev-server.js:565:20)
+    at async DevServer.renderErrorToResponseImpl (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/base-server.js:1866:40)
+    at async pipe.req.req (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/base-server.js:1723:30)
+    at async DevServer.pipeImpl (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/base-server.js:820:25) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/fallback-build-manifest.json'
+}
+Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/fallback-build-manifest.json'
+    at readFileSync (node:fs:453:20)
+    at loadManifest (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/load-manifest.js:30:54)
+    at loadManifestWithRetries (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/load-components.js:34:51)
+    at async loadDefaultErrorComponentsImpl (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/load-default-error-components.js:30:24)
+    at async DevServer.getFallbackErrorComponents (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/dev/next-dev-server.js:565:20)
+    at async DevServer.renderErrorToResponseImpl (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/base-server.js:1866:40)
+    at async pipe.req.req (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/base-server.js:1723:30)
+    at async DevServer.pipeImpl (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/base-server.js:820:25) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/fallback-build-manifest.json'
+}
+Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/fallback-build-manifest.json'
+    at readFileSync (node:fs:453:20)
+    at loadManifest (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/load-manifest.js:30:54)
+    at loadManifestWithRetries (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/load-components.js:34:51)
+    at async loadDefaultErrorComponentsImpl (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/load-default-error-components.js:30:24)
+    at async DevServer.getFallbackErrorComponents (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/dev/next-dev-server.js:565:20)
+    at async DevServer.renderErrorToResponseImpl (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/base-server.js:1866:40)
+    at async pipe.req.req (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/base-server.js:1723:30)
+    at async DevServer.pipeImpl (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/base-server.js:820:25) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/fallback-build-manifest.json'
+}
+Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/fallback-build-manifest.json'
+    at readFileSync (node:fs:453:20)
+    at loadManifest (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/load-manifest.js:30:54)
+    at loadManifestWithRetries (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/load-components.js:34:51)
+    at async loadDefaultErrorComponentsImpl (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/load-default-error-components.js:30:24)
+    at async DevServer.getFallbackErrorComponents (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/dev/next-dev-server.js:565:20)
+    at async DevServer.renderErrorToResponseImpl (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/base-server.js:1866:40)
+    at async pipe.req.req (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/base-server.js:1723:30)
+    at async DevServer.pipeImpl (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/base-server.js:820:25) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/fallback-build-manifest.json'
+}
+thread '<unnamed>thread '' panicked at '<unnamed>thread 'The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }' panicked at '<unnamed>', The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }' panicked at '/usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs', The global thread pool has not been initialized.: ThreadPoolBuildError { kind: IOError(Os { code: 11, kind: WouldBlock, message: "Resource temporarily unavailable" }) }:/usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs', 170:/usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs:170:10:170
+10:note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+10
+thread '<unnamed>' panicked at 'The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }', /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs:170:10
+thread '<unnamed>' panicked at 'The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }', /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs:170:10
+thread '<unnamed>' panicked at 'The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }', /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs:170:10
+thread '<unnamed>' panicked at 'The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }', /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs:170:10
+thread '<unnamed>' panicked at 'The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }', /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs:170:10
+thread '<unnamed>' panicked at 'The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }', /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs:170:10
+ X ./pages/_app.js
+Error: failed to process The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }
+thread '<unnamed>' panicked at 'The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }', /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs:170:10
+thread '<unnamed>' panicked at 'The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }', /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs:170:10
+thread '<unnamed>' panicked at 'The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }', /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs:170:10
+thread '<unnamed>' panicked at 'The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }', /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs:170:10
+thread '<unnamed>' panicked at 'The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }', /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs:170:10
+thread '<unnamed>' panicked at 'The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }', /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs:170:10
+thread '<unnamed>' panicked at 'The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }', /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs:170:10
+thread '<unnamed>' panicked at 'The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }', /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs:170:10
+thread '<unnamed>' panicked at 'The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }', /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs:170:10
+thread '<unnamed>' panicked at 'The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }', /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs:170:10
+thread '<unnamed>' panicked at 'The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }', /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs:170:10
+thread '<unnamed>' panicked at 'The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }', /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs:170:10
+thread '<unnamed>' panicked at 'The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }', /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs:170:10
+thread '<unnamed>' panicked at 'The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }', /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs:170:10
+ X ./pages/_app.js
+Error: failed to process The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }
+ X Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/fallback-build-manifest.json'
+    at readFileSync (node:fs:453:20)
+    at loadManifest (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/load-manifest.js:30:54)
+    at loadManifestWithRetries (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/load-components.js:34:51)
+    at async loadDefaultErrorComponentsImpl (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/load-default-error-components.js:30:24)
+    at async DevServer.getFallbackErrorComponents (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/dev/next-dev-server.js:565:20)
+    at async DevServer.renderErrorToResponseImpl (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/base-server.js:1866:40)
+    at async DevServer.pipeImpl (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/base-server.js:820:25)
+    at async DevServer.handleCatchallRenderRequest (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/next-server.js:572:17)
+    at async DevServer.handleRequestImpl (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/base-server.js:722:17) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/fallback-build-manifest.json'
+}
+Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/fallback-build-manifest.json'
+    at readFileSync (node:fs:453:20)
+    at loadManifest (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/load-manifest.js:30:54)
+    at loadManifestWithRetries (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/load-components.js:34:51)
+    at async loadDefaultErrorComponentsImpl (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/load-default-error-components.js:30:24)
+    at async DevServer.getFallbackErrorComponents (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/dev/next-dev-server.js:565:20)
+    at async DevServer.renderErrorToResponseImpl (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/base-server.js:1866:40)
+    at async DevServer.pipeImpl (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/base-server.js:820:25)
+    at async DevServer.handleCatchallRenderRequest (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/next-server.js:572:17)
+    at async DevServer.handleRequestImpl (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/base-server.js:722:17) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/fallback-build-manifest.json'
+}
+Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/fallback-build-manifest.json'
+    at readFileSync (node:fs:453:20)
+    at loadManifest (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/load-manifest.js:30:54)
+    at loadManifestWithRetries (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/load-components.js:34:51)
+    at async loadDefaultErrorComponentsImpl (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/load-default-error-components.js:30:24)
+    at async DevServer.getFallbackErrorComponents (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/dev/next-dev-server.js:565:20)
+    at async DevServer.renderErrorToResponseImpl (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/base-server.js:1866:40)
+    at async pipe.req.req (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/base-server.js:1723:30)
+    at async DevServer.pipeImpl (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/base-server.js:820:25) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/fallback-build-manifest.json'
+}
+thread 'thread '<unnamed>' panicked at '<unnamed>thread 'The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }' panicked at '<unnamed>', The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }' panicked at '/usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs', The global thread pool has not been initialized.: ThreadPoolBuildError { kind: IOError(Os { code: 11, kind: WouldBlock, message: "Resource temporarily unavailable" }) }:/usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs', 170:/usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs:10170:
+:170note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+10:
+10
+thread '<unnamed>' panicked at 'The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }', /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs:170:10
+thread '<unnamed>' panicked at 'The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }', /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs:170:10
+thread '<unnamed>' panicked at 'The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }', /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs:170:10
+thread '<unnamed>' panicked at 'The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }', /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs:170:10
+thread '<unnamed>' panicked at 'The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }', /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs:170:10
+thread '<unnamed>' panicked at 'The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }', /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs:170:10
+ X ./pages/_app.js
+Error: failed to process The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }
+thread '<unnamed>' panicked at 'The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }', /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs:170:10
+thread '<unnamed>' panicked at 'The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }', /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs:170:10
+thread '<unnamed>' panicked at 'The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }', /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs:170:10
+thread '<unnamed>' panicked at 'The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }', /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs:170:10
+thread '<unnamed>' panicked at 'The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }', /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs:170:10
+thread '<unnamed>' panicked at 'The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }', /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs:170:10
+thread '<unnamed>' panicked at 'The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }', /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs:170:10
+thread '<unnamed>' panicked at 'The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }', /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs:170:10
+thread '<unnamed>' panicked at 'The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }', /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs:170:10
+thread '<unnamed>' panicked at 'The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }', /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs:170:10
+thread '<unnamed>' panicked at 'The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }', /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs:170:10
+thread '<unnamed>' panicked at 'The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }', /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs:170:10
+thread '<unnamed>' panicked at 'The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }', /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs:170thread ':<unnamed>10' panicked at '
+The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }', /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.11.0/src/registry.rs:170:10
+ X ./pages/_app.js
+Error: failed to process The global thread pool has not been initialized.: ThreadPoolBuildError { kind: GlobalPoolAlreadyInitialized }
+ X Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/fallback-build-manifest.json'
+    at readFileSync (node:fs:453:20)
+    at loadManifest (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/load-manifest.js:30:54)
+    at loadManifestWithRetries (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/load-components.js:34:51)
+    at async loadDefaultErrorComponentsImpl (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/load-default-error-components.js:30:24)
+    at async DevServer.getFallbackErrorComponents (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/dev/next-dev-server.js:565:20)
+    at async DevServer.renderErrorToResponseImpl (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/base-server.js:1866:40)
+    at async DevServer.pipeImpl (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/base-server.js:820:25)
+    at async DevServer.handleCatchallRenderRequest (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/next-server.js:572:17)
+    at async DevServer.handleRequestImpl (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/base-server.js:722:17) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/fallback-build-manifest.json'
+}
+Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/fallback-build-manifest.json'
+    at readFileSync (node:fs:453:20)
+    at loadManifest (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/load-manifest.js:30:54)
+    at loadManifestWithRetries (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/load-components.js:34:51)
+    at async loadDefaultErrorComponentsImpl (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/load-default-error-components.js:30:24)
+    at async DevServer.getFallbackErrorComponents (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/dev/next-dev-server.js:565:20)
+    at async DevServer.renderErrorToResponseImpl (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/base-server.js:1866:40)
+    at async DevServer.pipeImpl (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/base-server.js:820:25)
+    at async DevServer.handleCatchallRenderRequest (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/next-server.js:572:17)
+    at async DevServer.handleRequestImpl (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/base-server.js:722:17) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/fallback-build-manifest.json'
+}
+Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/fallback-build-manifest.json'
+    at readFileSync (node:fs:453:20)
+    at loadManifest (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/load-manifest.js:30:54)
+    at loadManifestWithRetries (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/load-components.js:34:51)
+    at async loadDefaultErrorComponentsImpl (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/load-default-error-components.js:30:24)
+    at async DevServer.getFallbackErrorComponents (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/dev/next-dev-server.js:565:20)
+    at async DevServer.renderErrorToResponseImpl (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/base-server.js:1866:40)
+    at async pipe.req.req (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/base-server.js:1723:30)
+    at async DevServer.pipeImpl (/home/esddcliy/nodevenv/devdataplay/20/lib/node_modules/next/dist/server/base-server.js:820:25) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/fallback-build-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/BUILD_ID'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/BUILD_ID'
+}
+[Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/BUILD_ID'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/BUILD_ID'
+}
+[Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/BUILD_ID'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/BUILD_ID'
+}
+[Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/BUILD_ID'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/BUILD_ID'
+}
+[Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/BUILD_ID'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/BUILD_ID'
+}
+[Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/BUILD_ID'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/BUILD_ID'
+}
+[Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/BUILD_ID'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/BUILD_ID'
+}
+[Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/BUILD_ID'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/BUILD_ID'
+}
+[Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/BUILD_ID'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/BUILD_ID'
+}
+[Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/BUILD_ID'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/BUILD_ID'
+}
+[Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/BUILD_ID'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/BUILD_ID'
+}
+[Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/BUILD_ID'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/BUILD_ID'
+}
+[Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/BUILD_ID'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/BUILD_ID'
+}
+[Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/BUILD_ID'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/BUILD_ID'
+}
+[Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/BUILD_ID'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/BUILD_ID'
+}
+[Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/BUILD_ID'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/BUILD_ID'
+}
+[Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/BUILD_ID'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/BUILD_ID'
+}
+[Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/BUILD_ID'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/BUILD_ID'
+}
+[Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/BUILD_ID'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/BUILD_ID'
+}
+[Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/BUILD_ID'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/BUILD_ID'
+}
+[Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/BUILD_ID'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/BUILD_ID'
+}
+[Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/BUILD_ID'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/BUILD_ID'
+}
+[Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/BUILD_ID'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/BUILD_ID'
+}
+[Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/BUILD_ID'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/BUILD_ID'
+}
+[Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/BUILD_ID'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/BUILD_ID'
+}
+[Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/BUILD_ID'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/BUILD_ID'
+}
+[Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/BUILD_ID'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/BUILD_ID'
+}
+[Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/BUILD_ID'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/BUILD_ID'
+}
+[Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/BUILD_ID'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/BUILD_ID'
+}
+[Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/BUILD_ID'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/BUILD_ID'
+}
+[Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/BUILD_ID'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/BUILD_ID'
+}
+[Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/BUILD_ID'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/BUILD_ID'
+}
+[Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/BUILD_ID'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/BUILD_ID'
+}
+[Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/BUILD_ID'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/BUILD_ID'
+}
+[Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/BUILD_ID'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/BUILD_ID'
+}
+[Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/BUILD_ID'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/BUILD_ID'
+}
+[Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/BUILD_ID'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/BUILD_ID'
+}
+[Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/BUILD_ID'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/BUILD_ID'
+}
+[Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/BUILD_ID'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/BUILD_ID'
+}
+[Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/BUILD_ID'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/BUILD_ID'
+}
+[Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/BUILD_ID'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/BUILD_ID'
+}
+[Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/BUILD_ID'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/BUILD_ID'
+}
+[Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/BUILD_ID'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/BUILD_ID'
+}
+[Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/BUILD_ID'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/BUILD_ID'
+}
+[Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/BUILD_ID'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/BUILD_ID'
+}
+[Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/BUILD_ID'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/BUILD_ID'
+}
+node:internal/modules/cjs/loader:1080
+  throw err;
+  ^
+
+Error: Cannot find module 'next'
+Require stack:
+- /home/esddcliy/devdataplay/server.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1077:15)
+    at Module._load (node:internal/modules/cjs/loader:922:27)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:119:18)
+    at Object.<anonymous> (/home/esddcliy/devdataplay/server.js:3:14)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/esddcliy/devdataplay/server.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+
+Node.js v18.18.2
+[Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/BUILD_ID'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/BUILD_ID'
+}
+[Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/BUILD_ID'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/BUILD_ID'
+}
+[Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/BUILD_ID'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/BUILD_ID'
+}
+[Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/BUILD_ID'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/BUILD_ID'
+}
+[Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/BUILD_ID'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/BUILD_ID'
+}
+[Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/BUILD_ID'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/BUILD_ID'
+}
+[Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/BUILD_ID'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/BUILD_ID'
+}
+[Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/BUILD_ID'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/BUILD_ID'
+}
+[Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/BUILD_ID'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/BUILD_ID'
+}
+[Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/BUILD_ID'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/BUILD_ID'
+}
+[Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/BUILD_ID'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/BUILD_ID'
+}
+[Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/BUILD_ID'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/BUILD_ID'
+}
+[Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/BUILD_ID'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/BUILD_ID'
+}
+[Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/BUILD_ID'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/BUILD_ID'
+}
+[Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/BUILD_ID'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/BUILD_ID'
+}
+[Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/BUILD_ID'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/BUILD_ID'
+}
+[Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/BUILD_ID'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/BUILD_ID'
+}
+[Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/BUILD_ID'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/BUILD_ID'
+}
+[Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/BUILD_ID'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/BUILD_ID'
+}
+[Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/BUILD_ID'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/BUILD_ID'
+}
+[Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/BUILD_ID'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/BUILD_ID'
+}
+[Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/BUILD_ID'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/BUILD_ID'
+}
+[Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/BUILD_ID'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/BUILD_ID'
+}
+[Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/BUILD_ID'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/BUILD_ID'
+}
+[Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/BUILD_ID'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/BUILD_ID'
+}
+[Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/BUILD_ID'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/BUILD_ID'
+}
+[Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/BUILD_ID'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/BUILD_ID'
+}
+[Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/BUILD_ID'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/BUILD_ID'
+}
+[Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/BUILD_ID'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/BUILD_ID'
+}
+[Error: ENOENT: no such file or directory, open '/home/esddcliy/devdataplay/.next/BUILD_ID'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/esddcliy/devdataplay/.next/BUILD_ID'
+}
